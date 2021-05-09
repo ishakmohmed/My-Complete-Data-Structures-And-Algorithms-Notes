@@ -1,0 +1,14 @@
+pre-order (Root, Left Subtree, Right Subtree):
+// like cutting a cake to the very left bottom
+20, 10, 6, 3, 8, 14, 30, 24, 26
+
+in-order (left subtree, root, rightsubtree):
+// from root go to left st to the very bottom left, then left-root-right
+// then frm root go to very bottom left, then left-root-right
+// in other words, start from bottom and move up!
+// verify this by ascending numbers 
+3, 6, 8, 10, 14, 20, 24, 26, 30
+
+post-order (left subtree, right subtree, root):
+
+3, 8, 6, 14, 10, 26, 24, 30, 20
